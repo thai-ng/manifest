@@ -23,6 +23,9 @@
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="thirteen" />
 
+  <remote name="thai-ng"
+        fetch="https://github.com/thai-ng" />
+
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
@@ -73,7 +76,7 @@
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
-  <project path="manifest" name="manifest" remote="pixel-plus" />
+  <project path="manifest" name="manifest" remote="thai-ng" revision="duo-thirteen-plus" />
   <project path="libcore" name="libcore" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
 

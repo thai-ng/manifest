@@ -15,7 +15,7 @@
   <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel-plus" />
-
+  <project path="vendor/surface" name="vendor-surface" remote="thai-ng" revision="main" />
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/custom/compat" name="hardware_custom_compat" remote="pixel" />
@@ -30,6 +30,8 @@
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="pixel-plus" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
+  <project path="packages/thain/services/PostureProcessor" name="PostureProcessor" remote="thai-ng" revision="main"/>
+  <project path="packages/thain/rro_overlays" name="rro_overlays" remote="thai-ng" revision="main" />
 
   <!-- Prebuilts repos -->
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pixel" clone-depth="1" />
